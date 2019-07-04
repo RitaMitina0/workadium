@@ -1,0 +1,30 @@
+.pagination{
+  display: flex;
+  justify-content: center;
+  margin: 75px 0;
+  font-family:  'roboto-light', Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: #4e4c4c;
+}
+
+.pagination__pages{
+ margin-left: 20px;
+}
+
+.pagination__pages-item {
+  margin:  0 7px 0 7px; 
+  color: #221f1f;
+  font-weight: bold;
+  font-family:  'roboto-bold', Arial, Helvetica, sans-serif;
+
+}
+// .pagination__pages-item:hover {
+ 
+// }
+.pagination__pages-item:hover, .active{
+  padding: 3px 8px;
+  background-color: #27273e;
+  color: #fff;
+  margin: 0;
+  border-radius: 3px;
+}

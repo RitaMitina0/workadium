@@ -1,0 +1,26 @@
+.action__block{
+  position: relative;  
+    padding-bottom: 255px;
+}
+.banner-comments{
+  position: absolute;
+  left: -473px;
+  width: 200%;
+}
+
+.action-text{
+  position: absolute;
+  font-family: 'GothamPro-Light', Arial, Helvetica, sans-serif;
+  top: 60px;
+  width: 550px;
+  left: 50%;
+  margin-left: -275px;
+  color: #fff;
+  text-align: start;
+
+}
+.action-text span{
+  color: #ec1e79;
+  font-family: 'GothamPro-Bold', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}

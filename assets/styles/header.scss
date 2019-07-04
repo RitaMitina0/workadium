@@ -1,0 +1,29 @@
+$mainColor: #27273e;
+.header{
+  background-color: $mainColor;
+  height: 76px;
+}
+
+.header__contacts{
+  line-height: 1.5;
+}
+.header__contacts a{
+  color: #fff;
+  font-family: 'GothamPro-Bold', Arial, Helvetica, sans-serif;
+
+}
+
+.phone{
+  font-size: 21px;
+  
+}
+
+.timetable{
+color:#b12167;
+border-bottom: 2px solid #b12167; 
+}
+.drop-menu__title{
+text-align: right;
+
+
+}

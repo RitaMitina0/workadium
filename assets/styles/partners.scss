@@ -1,0 +1,15 @@
+.partners__blocks{
+  display: flex;
+  flex-wrap: wrap;
+  width: 112%;
+}
+
+.partner__block{
+  width: 30%;
+  margin: 30px 0px;
+  filter: grayscale(100%);
+&:hover{
+  cursor: pointer;
+  filter: none;
+}
+}

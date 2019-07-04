@@ -1,0 +1,26 @@
+.footer__social{
+  display: flex;
+}
+
+.social__item{
+  height: 22px;
+  width: 22px;
+  background-color: #d4d4d8;
+  border-radius: 50%;
+  margin-right: 7px;
+  position: relative;
+  &:hover{
+    background-color: #ec1e79;
+    cursor: pointer;
+  }
+}
+
+.social__item img{
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+}
+

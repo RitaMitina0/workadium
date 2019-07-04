@@ -1,0 +1,134 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Воркадиум
+    link(rel="stylesheet", type="text/css", href="../assets/styles/main.css")
+  body
+    .wrapper
+      .maincontent
+        header.header 
+          .container.header-footer__container
+            .header__logo
+              a(href="./main.html")
+                img(src="../assets/images/header/logo-fig.png", alt="Логотип")
+            .header__contacts
+              .contacts__phone
+                a(href="tel:88000039210").phone 8(800) 00-392-10
+              .contacts__drop-menu
+                .drop-menu__title
+                  span.timetable График работы
+                  .dropdown
+                    span.workdays пн-вс: 09:00 - 20:00
+                    span.lunch обед: 14:00 - 14:30
+        .banner 
+          img(src="../assets/images/header/Banner.png", alt="Баннер")
+        main.main
+          .container
+            .container-union
+              aside.sidebar
+                nav.menu
+                  ul.menu__list
+                    li.menu__item 
+                      a(href="./main.html").menu__link.menu__link--active
+                        .menu__icon.menu__icon--triangle.menu__icon--triangle--active
+                          span.menu__title Главная
+                    li.menu__item 
+                      a(href="./comments.html").menu__link
+                        .menu__icon.menu__icon--star
+                          span.menu__title Отзывы
+                    li.menu__item 
+                      a(href="./prices.html").menu__link
+                        .menu__icon.menu__icon--purse
+                          span.menu__title Тарифы
+              .content
+                .features__wrap
+                  h2.page-title Особенности
+                  .features__content
+                    .features__block
+                      .features__block-img
+                        img(src="../assets/images/features/flower.png", alt="", srcset="").features-menu__icon
+                      span.features__block-title Уникальность
+                      p.features__block-desc Создан для вашего комфортного отдыха
+                      ul.features__block__list
+                        li.list__item Кофе/Чай
+                        li.list__item Шкаф(5кг)
+                        li.list__item Рабочее место
+                    .features__block
+                      .features__block-img
+                        img(src="../assets/images/features/star.png", alt="", srcset="").features-menu__icon 
+                      span.features__block-title Премиум - класс
+                      p.features__block-desc Для любителей хороших впечатлений
+                      ul.features__block__list
+                        li.list__item Обед + Кофе
+                        li.list__item Шкаф(10кг)
+                        li.list__item Детское кресло
+                    .features__block
+                      .features__block-img
+                        img(src="../assets/images/features/palette.png", alt="", srcset="").features-menu__icon
+                      span.features__block-title Лакшери - стулья
+                      p.features__block-desc Все самое лучшее и незабываемое
+                      ul.features__block__list
+                        li.list__item Джакузи
+                        li.list__item Шкаф(15кг)
+                        li.list__item Табуретка
+                .news__wrap
+                  h2.page-title Последние новости
+                  .news__content
+                    .news__block
+                      .news__block__img
+                        img(src="../assets/images/news/news1.png", alt="", srcset="")
+                      .news__block__content
+                        .news__block__content--title
+                          .news__block__content--date 12.10.2016
+                          span.news__block__content--name Чёрная дыра скидок!
+                        p.news__block__content--desc Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.
+                    .news__block
+                      .news__block__img
+                        img(src="../assets/images/news/news2.png", alt="", srcset="")
+                      .news__block__content
+                        .news__block__content--title
+                          .news__block__content--date 01.02.2016
+                          span.news__block__content--name Заряжай друзей, получай призы!
+                        p.news__block__content--desc Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis.
+                    .news__block
+                      .news__block__img
+                        img(src="../assets/images/news/news3.png", alt="", srcset="")
+                      .news__block__content
+                        .news__block__content--title
+                          .news__block__content--date 22.12.2016
+                          span.news__block__content--title Новое рабочее место для бизнесменов!
+                        p.news__block__content--desc Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.
+            .pagination 
+              span.pagination-title Страница 1 из 7
+              ul.pagination__pages
+                a(href="#").pagination__pages-arrow <
+                a(href="#").pagination__pages-item.active 1
+                a(href="#").pagination__pages-item 2
+                a(href="#").pagination__pages-item 3
+                a(href="#").pagination__pages-item 4 
+                a(href="#").pagination__pages-item 5
+                a(href="#").pagination__pages-item 6 
+                a(href="#").pagination__pages-item 7
+                a(href="#").pagination__pages-arrow >
+        footer.footer 
+          .container.header-footer__container
+            .footer__description
+              p Сделано с любовью и старанием на курсе «HTML + CSS» в LoftSchool.
+            .footer__logo
+              img(src="../assets/images/header/logo-fig.png", alt="Логотип")
+            ul.footer__social
+              li.social__item
+                img(src="../assets/images/social/vk.png", alt="").social-icon
+              li.social__item
+                img(src="../assets/images/social/fb.png", alt="").social-icon
+              li.social__item
+                img(src="../assets/images/social/google.png", alt="").social-icon
+              li.social__item
+                img(src="../assets/images/social/twitter.png", alt="").social-icon
+              li.social__item
+                img(src="../assets/images/social/mail.png", alt="").social-icon
+//- pug --watch ./views/pages/ --out ./dist/
+
